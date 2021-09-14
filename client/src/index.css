@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.todoCard {
+  padding: 3vh;
+  margin-right: 20px;
+  margin-left: 20px;
+  border: 1px solid rgb(211, 205, 205);
+  border-radius: 5px;
+  color: white;
+}
+
+.todoCard button {
+  margin: auto;
+  color: black;
+  background-color: white;
+}
+
+.mainContainer {
+  margin-top: 4vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  row-gap: 2vh;
+}
+
+.logoutBtn {
+  float: right;
+  margin: 0 10px 0 0;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+  padding: 4px;
+  font-size: 0.9rem;
+}
+
+.logoutBtn:hover {
+  background-color: rgb(51, 49, 49);
+  color: white;
+}
+
+.topText {
+  margin: 10px 0 0 10px;
+  color: white;
+}
